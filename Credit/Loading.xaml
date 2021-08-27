@@ -1,0 +1,22 @@
+﻿<Window x:Class="Credit.Loading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Credit"
+        mc:Ignorable="d"
+        Title="Loading" Height="96" Width="358">
+    <Grid>
+        <ProgressBar Name="progressBar" HorizontalAlignment="Left" Height="10" Margin="16,24,0,0" VerticalAlignment="Top" Width="324" RenderTransformOrigin="0.5,0.5">
+            <ProgressBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-6.444"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
+
+    </Grid>
+</Window>
